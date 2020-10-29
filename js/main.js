@@ -70,7 +70,7 @@ function notAuthorized() {
   function logIn(event) {
     event.preventDefault();
     
-    if(validName(loginInput.value) {
+    if(validName(loginInput.value)) {
       login = loginInput.value;
 
       localStorage.setItem('Delivery', login);
